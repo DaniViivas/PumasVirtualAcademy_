@@ -1,0 +1,92 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #FFC300; 
+  
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: linear-gradient(blue, pink); 
+}
+
+.form-floating .form-control {
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.form-floating .form-control {
+    border: 2px solid black; /* Borde más grueso */
+    border-radius: 8px;    /* Bordes redondeados */
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+
+
+
+/* Aumentar tamaño del recuerdame */
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+
+/*boton de iniciar*/
+.btn-primary {
+    border: none; 
+    color: black;
+}
+
+.form-signin {
+  display: flex; /* Activa flexbox en el contenedor del formulario */
+  flex-direction: column; /* Alinea los elementos en columna */
+  align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.form-floating i {
+  position: absolute;
+  right: 10px; /* Ajusta la posición horizontal */
+  top: 50%;
+  transform: translateY(-50%); /* Centra verticalmente */
+  
+}
+
+
+.form-floating .toggle-password {
+  right: 20px; /* Ajusta este valor para mover el icono horizontalmente */
+  top: 50%;
+  transform: translateY(-50%); /* Mantiene el icono centrado verticalmente */
+}
